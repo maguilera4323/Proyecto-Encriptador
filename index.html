@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <br>
+    <div id="contenedor">
+        <h2>Encriptador</h2>
+        <textarea id="input-encriptar" cols="15" placeholder="Ingrese texto a encriptar" rows="5"
+        required></textarea>
+        <p id="mensajeError"></p>
+        <textarea id="input-encriptado" cols="15" placeholder="Aqui se verá el texto encriptado"rows="5"></textarea>
+        <p id="otroMensajeError"></p>
+        <span>*Solo se permiten letras sin acentos y espacios</span>
+        <button class="button-28" onclick="Encriptar()">Encriptar</button>
+        <button class="button-28" onclick="Desencriptar()">Desencriptar</button>
+        <button class="button-28" onclick="CopiarTexto()">Copiar Texto</button>
+        <button class="button-28" id="ultimo-boton" onclick="limpiar()">Limpiar</button>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <br>
+        <p> Creado por Maynor Aguilera</p>
+        <p>Alura 1° Challenge Proyecto Encriptador</p>
+        <p>2023. Todos los derechos reservados ©</p>
+        <br>
+      </footer>
+
+      <script src="funciones.js"></script>
+</body>
+</html>
